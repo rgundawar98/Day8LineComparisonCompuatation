@@ -49,6 +49,9 @@ namespace Day8LineComparisonComputation
             {
                 Console.WriteLine("Both lines are not similar");
             }
+
+            //Compairing using CompareTo() method
+            Console.WriteLine("Checking length of lines using CompareTo() method is:"+LineLength.CompareTo(LineLength1));
         }
     }
 }
