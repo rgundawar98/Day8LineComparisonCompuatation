@@ -7,6 +7,8 @@ namespace Day8LineComparisonComputation
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Line Comparison Programs");
+            LineComparison lineComparison = new LineComparison(); //Creating object
+            lineComparison.Check_Lines();//Calling method using reference object
         }
     }
 }
