@@ -41,9 +41,13 @@ namespace Day8LineComparisonComputation
             {
                 Console.WriteLine("Both lines are equal to each other");
             }
-            else 
+            else if(LineLength > LineLength1)
             {
-                Console.WriteLine("Lines are not equal");
+                Console.WriteLine("Line 1 length is greater than second line");
+            }
+            else
+            {
+                Console.WriteLine("Both the lines are not equal");
             }
         }
     }
